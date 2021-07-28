@@ -1,0 +1,14 @@
+STEPS TO ADD EXTRA FUNCTIONS LIKE(DATE, MONTH AND YEAR) TO NTPClient library
+
+1) Make sure to install and include the NTPClient library. You can use it's inbuilt functions to test if it works.
+2) Open for the NTPClient library folder from the arduino library folder.
+3) Replace the two files named "NTPClient.cpp" and "NTPClient.h"
+   with the ones in this folder.
+4) Restart your arduino IDE.
+5) You can now use these extra functions with the NTPClient library:
+   (i) timeClient.getFullFormattedTime() to get the current full date and time.
+   (ii) timeClient.getYear() to get the current year.
+   (iii) timeClient.getMonth() to get the current month
+   (ii) timeClient.getDate() to get the current date
+   
+
